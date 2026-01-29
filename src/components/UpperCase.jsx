@@ -45,7 +45,7 @@ const handleClear = () =>{
 <button className='mt-2 btn btn-primary' onClick={handleLower}>LowerCase</button>
 
 
-<button className='mt-2 btn btn-primary' onClick={handleClear}>Clear All</button>
+<button className='mt-2 btn btn-danger' onClick={handleClear}>Clear All</button>
          </div>
         </div>
       </div> 
