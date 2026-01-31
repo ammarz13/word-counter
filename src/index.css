@@ -21,3 +21,13 @@ code {
   background-color: white;
   color: black;
 }
+
+.badge-width .badge{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+}
+.badge-width .badge:empty{
+  display: flex !important;
+}
